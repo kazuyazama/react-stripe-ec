@@ -19,7 +19,7 @@ const addCartItem = (cartItems, product) => {
 };
 
 const removeCartItem = (cartItems, product) => {
-  //product-card.jsのidとcart-dropdownのoidが一致していたら(同じ商品か判定)
+  //product-card.jsのidとcart-dropdownのidが一致していたら(同じ商品か判定)
   const existingCartItem = cartItems.find(
     (cartItem) => cartItem.id === product.id
   );
